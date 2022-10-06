@@ -1,0 +1,5 @@
+2 2
+1 // 2ª linha e seguintes com cada elemento da matriz
+2
+-3
+0
