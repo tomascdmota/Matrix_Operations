@@ -27,4 +27,7 @@
   <ItemGroup>
     <Text Include="Matriz.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
 </Project>
