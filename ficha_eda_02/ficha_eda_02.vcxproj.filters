@@ -18,6 +18,9 @@
     <ClCompile Include="Matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h">
@@ -26,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Matriz.txt" />
+    <Text Include="matriz2.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

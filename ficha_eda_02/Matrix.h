@@ -24,13 +24,17 @@ public:
 	bool CanMultiply(const Matrix* pm);
 	bool CanAdd(const Matrix* pm);
 	const Matrix& operator = (const Matrix& m1);
-	Matrix operator + (const Matrix& m1);
-	Matrix operator * (const Matrix& m1);
+	Matrix operator+ (const Matrix& m1);
+	Matrix operator* (const Matrix& m1);
 	const Matrix& operator += (int k); // Soma cada elemento da matriz com o valor k
 	const Matrix& operator *= (int k); // Multiplica cada elemento da matriz por k
 	void Transpose();
 	bool ReadFromFile(char* file_name);
 	bool SaveToFile(char* file_name);
 	void Output();
+	Matrix getUpperTriangle();
+	Matrix getLowerTriangle();
 	Matrix GetLU();
+	float GetDeterminant();
+	Matrix GetInverse();
 };
